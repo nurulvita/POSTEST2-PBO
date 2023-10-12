@@ -1,0 +1,6 @@
+playlist\models\Indie.class
+playlist\models\HipHop.class
+playlistmusic\PlaylistApp.class
+playlist\models\Song.class
+playlist\models\Play.class
+playlist\models\Pop.class
