@@ -5,12 +5,12 @@ Nama : Nurul Vita Azizah
 
 Tema : Playlist Music
 
-Tentang Project Playlist Music
+About Project Playlist Music
 ----------------------
 
 Project "Playlist Music" ini adalah sebuah program sederhana yang memungkinkan pengguna untuk mengelola playlist musik dengan beberapa fungsionalitas dasar seperti menambahkan lagu, mengedit informasi lagu, menghapus lagu, dan menampilkan daftar lagu dalam playlist berdasarkan genre musiknya (Indie, Pop, atau Hip-Hop). Program ini dirancang menggunakan bahasa pemrograman Java dan program ini menerapkan fitur interface, penggunaan kelas, penggunaan koleksi data (ArrayList), enkapsulasi dengan akses modifier `private`, penggunaan getter dan setter, penggunaan final, inheritance, serta override.
 
-### Struktur Project
+### A. Struktur Project
 
 Project "Playlist Music" ini dibagi menjadi beberapa package dan kelas-kelas yang berbeda:
 
@@ -22,7 +22,7 @@ Project "Playlist Music" ini dibagi menjadi beberapa package dan kelas-kelas yan
 
 4. **Package `playlistmusic`**: Ini adalah package yang berisi kelas `PlaylistApp` yang berfungsi sebagai aplikasi utama untuk mengelola playlist musik. Kelas `PlaylistApp` menyediakan antarmuka pengguna berupa menu untuk menambahkan, mengedit, menghapus, atau menampilkan daftar lagu dalam playlist.
 
-### Fungsionalitas Utama
+### B. Fungsionalitas Utama
 
 Aplikasi "Playlist Music" ini memiliki beberapa fungsionalitas utama sebagai berikut:
 
@@ -197,7 +197,7 @@ Aplikasi "Playlist Music" ini memiliki beberapa fungsionalitas utama sebagai ber
                 }
 
 '''
-### Output & Cara Penggunaan PlaylistApp
+### C. Output & Cara Penggunaan PlaylistApp
 
 1. Jalankan aplikasi dengan menjalankan kelas `PlaylistApp` yang ada dalam package `playlistmusic`. Kemudian terdapat menu playlist dan user diminta untuk menginput pilihan, tampilan seperti berikut :
 
