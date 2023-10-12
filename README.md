@@ -16,9 +16,12 @@ Project "Playlist Music" ini dibagi menjadi beberapa package dan kelas-kelas yan
 
 1. **Package `playlist.models`**: Package ini berisi antarmuka `Play` yang mendefinisikan kontrak untuk kelas-kelas playlist (Indie, Pop, dan Hip-Hop). Ini juga berisi implementasi kelas-kelas playlist seperti `Indie`, `Pop`, dan `HipHop`. Setiap kelas playlist ini mengimplementasikan antarmuka `Play`.
 
-2. **Kelas `Song`**: Ini adalah kelas yang digunakan untuk merepresentasikan sebuah lagu dalam playlist. Kelas ini memiliki variabel anggota yang menyimpan informasi tentang lagu (judul, artis, genre) serta getter dan setter untuk mengakses dan mengubah informasi tersebut.
+   ![image](https://github.com/nurulvita/POSTEST2-PBO/assets/121857360/43e448cd-2d76-49da-86e1-6bba3d0fb9f1)
 
-3. **Package `playlistmusic`**: Ini adalah package yang berisi kelas `PlaylistApp` yang berfungsi sebagai aplikasi utama untuk mengelola playlist musik. Kelas `PlaylistApp` menyediakan antarmuka pengguna berupa menu untuk menambahkan, mengedit, menghapus, atau menampilkan daftar lagu dalam playlist.
+
+3. **Kelas `Song`**: Ini adalah kelas yang digunakan untuk merepresentasikan sebuah lagu dalam playlist. Kelas ini memiliki variabel anggota yang menyimpan informasi tentang lagu (judul, artis, genre) serta getter dan setter untuk mengakses dan mengubah informasi tersebut.
+
+4. **Package `playlistmusic`**: Ini adalah package yang berisi kelas `PlaylistApp` yang berfungsi sebagai aplikasi utama untuk mengelola playlist musik. Kelas `PlaylistApp` menyediakan antarmuka pengguna berupa menu untuk menambahkan, mengedit, menghapus, atau menampilkan daftar lagu dalam playlist.
 
 ### Fungsionalitas Utama
 
