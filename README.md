@@ -27,6 +27,7 @@ Aplikasi "Playlist Music" ini memiliki beberapa fungsionalitas utama sebagai ber
 1. **Menambahkan Lagu**: Pengguna dapat menambahkan lagu ke dalam playlist jenis Indie, Pop, atau Hip-Hop. Mereka dapat memasukkan judul lagu, artis, dan genre lagu.
 
    '''
+   
                switch (choice) {
                 case 1 -> {
                     System.out.println("====================================");
@@ -63,6 +64,7 @@ Aplikasi "Playlist Music" ini memiliki beberapa fungsionalitas utama sebagai ber
 3. **Mengedit Lagu**: Pengguna dapat mengedit informasi lagu yang sudah ada di dalam playlist. Mereka dapat memilih playlist mana yang ingin diedit dan memasukkan judul lagu yang akan diedit serta informasi baru (judul, artis, genre).
 
    '''
+   
                        switch (editPlaylistChoice) {
                         case 1 -> {
                             if (indiePlaylist instanceof Indie indie) {
@@ -142,6 +144,7 @@ Aplikasi "Playlist Music" ini memiliki beberapa fungsionalitas utama sebagai ber
 7. **Menampilkan Daftar Lagu**: Pengguna dapat memilih playlist yang ingin mereka lihat dan melihat daftar lagu yang ada di dalamnya. Daftar lagu akan mencakup judul lagu, artis, dan genre.
 
 '''
+
                 case 4 -> {
                     System.out.println("==================================");
                     System.out.println("  Select a Playlist to display:   ");
